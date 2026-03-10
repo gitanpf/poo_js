@@ -6,10 +6,10 @@ const alunos = [
     { nome: "Pedro", nota: 6 }
 ];
 
-const aprovados = (listaAlunos) => {
+const alunosApro = (listaAlunos) => {
     return listaAlunos.filter(aluno => aluno.nota >= 6);
 };
 
-const aprovados = aprovados(alunos);
+const aprovados = alunosApro(alunos);
 
 console.log(aprovados);
